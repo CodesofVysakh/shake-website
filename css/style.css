@@ -1,0 +1,188 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+	background: transparent;
+	font-weight: normal;
+	text-decoration: none;
+	outline: none;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+ol, ul {
+	list-style: none;
+}
+del {
+	text-decoration: line-through;
+}
+body {
+	font-family: "Circular-Std-Regular", Arial, Helvetica, sans-serif;
+	font-size: 17px;
+	color: #160647;
+	overflow-x: hidden;
+	min-width: 320px;
+	font-weight: 400;
+}
+input,textarea,select{
+	font-family: "Circular-Std-Regular", Arial, Helvetica, sans-serif;
+	font-weight: 400;
+}
+
+a{
+	color: #160647;
+}
+a:hover,.submit:hover{
+	filter: alpha(opacity = 85);
+	-moz-opacity: 0.85;
+	-khtml-opacity: 0.85;
+	opacity: 0.85;
+}
+.thumb{
+	display: block;
+}
+.thumb img{
+	display: block;
+	width:100%;
+}
+h3{
+	font-family: 'Circular-Std-Bold';
+}
+p{
+	line-height:1.6em;
+	font-size: 16px;
+	font-family: "Circular-Std-Regular", Arial;
+	font-weight: 400;
+}
+.hidden{
+	display:none;
+}
+br.clear {
+	clear: both;
+	line-height: 0;
+}
+.wrapper {
+	width: 90%;
+	margin: 0 auto;
+	/* max-width:1100px; */
+}
+@font-face {
+	font-family: 'Circular-Std-Regular';
+	src:url('../fonts/CircularStd-Regular.woff2') format('woff2');
+	src:url('../fonts/CircularStd-Regular.woff') format('woff');
+	font-style: normal;
+}
+@font-face {
+    font-family: 'Circular-Std-Bold';
+    src: url("../fonts/CircularStd-Bold.woff2") format("woff2");
+    src: url("../fonts/CircularStd-Bold.woff") format("woff");
+    font-style: normal
+}
+body{
+	background: url(../images/strip.png) no-repeat;
+	background-position: right 0px top 400px;
+	background-size: 345px;
+
+}
+header{
+	padding: 30px 0;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+header div.left{
+	
+}
+header div.left h1{
+	width: 120px;
+}
+header a{
+	font-family: 'Circular-Std-Bold';
+}
+header div.left h1 a{
+	width: 100%;
+}
+header div.left h1 a img{
+	display: block;
+	width: 100%;
+}
+header div.middle{
+	width: 300px;
+}
+header div.middle ul{
+	display: flex;
+	justify-content: space-between;
+}
+header div.middle ul li{
+	
+}
+header div.middle ul li a{
+	
+}
+header div.middle ul li a:hover{
+	text-decoration: underline;
+}
+header div.right{
+	width: 200px;
+}
+header div.right ul{
+	display: flex;
+	justify-content: space-between;
+}
+header div.right ul li{
+	
+}
+header div.right ul li a{
+	
+}
+header div.right ul li a.button{
+	padding: 14px 16px;
+	background-color: #160647;
+	color: #fff;
+	border-radius: 8px;
+}
+#spotlight{
+	margin: 0 auto;
+	width: 75%;
+}
+#spotlight div.top{
+	text-align: center;
+}
+#spotlight div.top h3{
+	line-height: 0.9em;
+	padding: 80px 0 30px;
+	font-size: 85px;
+	font-weight: 1000;
+}
+#spotlight div.top p{	
+	font-family: 'Circular-Std-Bold';
+	font-size: 18px;
+	margin-bottom: 70px;
+}
+#spotlight div.bottom{
+
+}
+#spotlight div.bottom ul{
+	display: flex;
+	justify-content: space-between;
+}
+#spotlight div.bottom ul li{
+	width: 45%;
+}
+#spotlight div.bottom ul li img{
+	display: block;
+	width: 100%;
+	box-shadow: 1px 1px 80px rgba(0, 0, 0, 0.1);
+}
+#spotlight div.bottom ul li h3{
+	font-size: 40px;
+	font-weight: 800;
+	margin: 40px 0 30px;
+}
+#spotlight div.bottom ul li p{
+	font-family: 'Circular-Std-Bold';
+	font-size: 18px;
+	padding-bottom: 60px;
+}
+
